@@ -1,0 +1,107 @@
+body{
+	background-image:url("../images/saloon-login-background4.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 250%;
+}
+.parent-navbar{
+                display: flex;
+                flex-direction: column;
+                z-index: 100px;
+                background:#FFDBE9;
+            }
+            .header{
+                text-align: center;
+                font-size: 75px;
+                color: #ec275f;
+            }
+            .child-navbar{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                position:sticky;
+                top:0;
+                background: #FFE6EE;
+                
+            }
+            .child-nav{
+                display: flex;
+                /*background: #f25477;*/
+                color: black;
+                min-width:100px;
+                height:40px;
+                border-radius: 3px;
+                margin: 10px 3vw;
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+                cursor: pointer;
+                text-decoration: none;
+                justify-content: center;
+            }
+            .child-nav:hover{
+                text-decoration: underline;
+            }
+            .active{
+                text-decoration: underline;
+            }
+            table {
+                border-collapse: collapse;
+                width: 50%;
+                margin: auto;
+                margin-top: 5%;
+            }
+
+            td, th {
+                border: 1px solid black;
+                text-align: center;
+                vertical-align: middle;
+            }
+            .dropdown{
+                display: flex;
+                position: relative;
+                align-self: center;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                /*background-color: #f1f1f1;*/
+                min-width: 95px;
+                /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+                z-index: 1;
+				left:-20px;
+				top:15px;
+                background: #FFDBE9;
+                text-decoration: none;
+              }
+              .dropdown-content a{
+                text-decoration: none;
+                text-align: left;
+                padding:5px;
+                color: black;
+                font-size: 18px;
+              }
+              .dropdown-content a:hover{
+                text-decoration: underline;
+              }
+              .arrow {
+                box-sizing: border-box;
+                height: 11px;
+                width: 11px;
+                border-style: solid;
+                border-color: black;
+                border-width: 0px 1px 1px 0px;
+                transform: rotate(45deg);
+                transition: border-width 150ms ease-in-out;
+                margin-left: 10px;
+                
+              }
+              .dropdown:hover .dropdown-content {
+                display: flex;
+                flex-direction: column;
+            }
+              
+@media screen and (max-width:1000px){
+	.child-nav{
+		margin: 10px 1vw;
+	}
+}
