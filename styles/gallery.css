@@ -1,0 +1,132 @@
+#gallery{
+	position:relative;
+	background-color:white;
+}
+.heading{
+	height:auto;
+	display:flex;
+	padding-top:80px;
+	padding-bottom:20px;
+	text-align:center;
+	width:100%;
+	background-color:#bebebe;;
+}
+
+.div1{
+	height:300px; 
+	padding-top:60px;
+	margin:auto;	
+	font-weight:bold; 
+	font-family:papyrus;
+}
+.div1 h1{
+	font-size: 90px;
+	color:purple;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.div2{
+	margin-top: 50px;
+	height:400px;
+}
+			  
+.div2 img{
+	height: 100%;
+	width:70%;
+	border-radius: 60%;
+	border: 3px solid gold;
+}
+
+.div3{
+	text-align:center;
+	padding:30px 10px;
+}
+.img3{
+	width:250px;
+	height:250px;
+	margin: 4px;
+}
+.img4{
+	width:200px;
+	height:200px;
+}
+.img4:hover{
+	transform:scale(1.2);
+	z-index:1;
+}
+
+.div4{
+	display:flex;
+	margin:auto;
+	background-color:lightpink;
+	padding:10px;
+}
+.div5{
+	display:flex;
+	text-align:center;
+}	  
+	  
+.div6{
+	background-color: pink;
+	margin: 20px;
+	text-align: center;
+	font-family:Gabriola ;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.div7{
+	background-color:black;
+	color: white;
+	text-align:center;
+	padding: 20px;
+}
+
+.div8{
+	display: flex;
+	padding:30px;
+	text-align:center;
+}
+
+.div9{
+	padding:20px;
+	text-align:center;
+}
+.one{
+	margin-top: 30px;
+	width:60%;
+	font-size: 20px;
+	font-family:papyrus; 
+	color:darkblue; 
+	font-weight:bold; 
+	margin:auto; 
+	text-align:center;
+}
+
+.two{
+	margin:auto;
+}	  
+.two img{
+	float:center;
+	height: 450px;
+	width: 300px;
+	border-style:double;
+	border: 3px solid orange;
+}
+			  
+.p1{font-size: 30px; text-align:center; color: black; font-family:papyrus;}
+.p2{font-size: 18px; text-align:center; color: darkblue; font-family:papyrus; font-weight:bold;}
+.hair{font-family:Lucida Handwriting;}
+.i{
+	width:200px;
+	height:200px;
+	border: 4px groove lightblue;
+	border-radius:50%;
+	margin:15px;
+}
+
+@media (max-width: 1028px) {
+    .heading,.div4,.two,.div8{
+		display:block;
+	}
+}

@@ -1,0 +1,43 @@
+.bottom{
+	padding:10px 20px 0px 20px;
+	background-color:#f2f2f2;
+	color: black;
+}
+.footer-firstletter:first-letter{
+	font-weight: bold;
+}
+.footer-para{
+	font-family: "brush script mt";
+	font-size:1.1rem;
+}
+.footer-bottom{
+	background-color:#D8D8D8;
+	color: white;
+	height:auto;
+	text-align: center;
+}
+.footer-logo{
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+	border: 2px solid red;
+}
+.bottom a{
+	color:red;
+}
+#footimg{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+@media (max-width: 1028px) {
+    #footer{
+        text-align: center;
+    }
+	.footer-logo{
+		width:35%;
+	}
+	iframe{
+		height:400px;
+	}
+}
